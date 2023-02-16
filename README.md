@@ -15,4 +15,4 @@ So far, examples with the following distributions are given:
 The workflow may, however, be adapted to any other distribution types to fit the particular needs of each study.
 
 ## General workflow:
-![Organigram](https://github.com/Ecotoni/Custom-Statistical-Power-Analyses/Organigram.pdf)
+![Organigram](./Organigram.pdf)
