@@ -15,4 +15,4 @@ So far, examples with the following distributions are given:
 The workflow may, however, be adapted to any other distribution types to fit the particular needs of each study.
 
 ## General workflow:
-![Organigram](./Organigram.pdf)
+![Organigram](./Organigram.png)
