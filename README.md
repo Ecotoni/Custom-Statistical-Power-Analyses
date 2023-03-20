@@ -40,14 +40,16 @@ The proportion of 0s in the data needs to be specified for zero-inflation scenar
 *With the use of the Count_dat.rds provided in the repository*\
 This artificially generated data contains two groups (named "1" and "2"), respectively containing 50 and 35 observations. Here is what the data look like, and the results of the associated Kruskal-Wallis test. The test is significant. The statistical power of the test will then tell us how likely it would be to find similar results if another set of observations were made. 
 
+[Count Plot](./Count_dat_Barplot.pdf)
+
 <p align="center">
-<img src = "./Count_dat_Barplot.pdf" height = 80% width = 80%>
+<img src = "./Count_dat_Barplot.pdf" height = 60% width = 60%>
 </p>
 
 For this example, the statistical power analyses was done using Negative Binomial distribution. A contour plot was generated to explore the evolution of the power value over different sample sizes on both sides of the realized sampling size (50, for the first group; 35, for the second). This helps deciding whether satisfactory sample size had been achieved, and at what threshold this satisfactory sample size was reached.
 
 <p align="center">
-<img src = "./CountDat_PowerContour.pdf" height = 80% width = 80%>
+<img src = "./CountDat_PowerContour.pdf" height = 60% width = 60%>
 </p>
 
 In this case, although the difference between the two groups was significant, the power of the test remains bellow the 0.8 threshold (in green). From this it should be concluded that, for instance, monitoring efforts would have more chance of capturing the correct structure of their data with slightly increased sample sizes (e.g. by bringing the sample size of the second group closer to 50).
